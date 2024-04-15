@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.first-bg-color {
+  background-color: #222e35;
+}
+.text-color-h1 {
+  color: rgba(233, 237, 239, 0.88);
+}
+.text-color-p {
+  color: #8696a0;
+}
+.text-color-footer {
+  color: #667781;
+}
+.defualt-btn-color {
+  color: #0e1b36;
+  background-color: #00a884;
+}
+.nav-bg {
+  background-color: #202c33;
+}
+.chatsContainer {
+  background-color: #111b21;
+}
+.nav-icons-color {
+  color: #aebac1;
+}
+.fucose-nav-icons {
+  background-color: #374248;
+}
+.input-bg {
+  background-color: #202c33;
+}
+input:focus {
+  outline: none;
+}
+.iconSearch-color {
+  color: #8696a0;
+}
+.arrowIcon-color {
+  color: #00a884;
+}
+.animation-Search-bar {
+  transform: rotate(-360deg);
+  transition: transform 0.5s;
+}
