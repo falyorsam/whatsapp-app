@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import DefualtShow from "./defualt/DefualtShow";
 import Nav from "../on-message/Nav";
 import Search from "../on-message/Search";
+import Chats from "../on-message/chats";
 
 const main = () => {
   const { chats } = useSelector((state) => state.country);
@@ -14,6 +15,7 @@ const main = () => {
         <div className="w-[45%] h-[100vh] chatsContainer  border-r-[1px] border-gray-700">
           <Nav />
           <Search />
+          <Chats />
           {/* <Notification />
           <Archive />
           <MessagesContainer /> */}
