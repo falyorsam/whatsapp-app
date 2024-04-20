@@ -51,6 +51,12 @@ const initialState = {
     },
   ],
   searchToArrow: false,
+  theLonelyChats: {
+    name: "",
+    messages: { messageText: "", date: "" },
+    profilePic: "",
+  },
+  LonelyChatsTrigger: false,
 };
 const CountrySlice = createSlice({
   name: "country",
@@ -59,8 +65,13 @@ const CountrySlice = createSlice({
     HandleSearchToArrow: (state, { payload }) => {
       state.searchToArrow = payload;
     },
+    handleTheLonelyChat: (state, { payload }) => {
+      state.theLonelyChats = payload;
+      state.LonelyChatsTrigger = true;
+    },
   },
 });
 
-export const { HandleSearchToArrow } = CountrySlice.actions;
+export const { HandleSearchToArrow, handleTheLonelyChat } =
+  CountrySlice.actions;
 export default CountrySlice.reducer;
