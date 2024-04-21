@@ -48,3 +48,15 @@ input:focus {
 .HoverMe:hover {
   background-color: #33333381;
 }
+.border-c {
+  border: 1px solid #8696a026;
+}
+.img-bg {
+  background: url("https://i.redd.it/ts7vuoswhwf41.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 200px;
+}
+.text-convo-bg {
+  background-color: #005c4b;
+}
